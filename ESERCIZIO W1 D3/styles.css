@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-logo img {
+    max-width: 200px;
+}
+
+.header-tagline p {
+    font-size: 1.1em;
+    color: #a8a8a8;
+    margin-top: 10px;
+    background-color: yellow;
+}
+
+.recipe-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipe-title h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.recipe-title p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.recipe-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.recipe-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-credit {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 5px;
+}
+
+.featured-in {
+    text-align: left;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.featured-in p {
+    font-size: 1em;
+    color: red;
+}
+
+.featured-in a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.ingredients, .method {
+    margin: 20px 0;
+}
+
+.ingredients h2, .method h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.ingredients h3, .method h3 {
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+.ingredients ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.ingredients ul li {
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+
+.method ol {
+    padding-left: 20px;
+}
+
+.method ol li {
+    margin-bottom: 15px;
+}
+
+.method ol li h3 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
